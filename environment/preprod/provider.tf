@@ -6,8 +6,8 @@ terraform {
     }
   }
   backend "azurerm" {
-    resource_group_name = "common_rg"
-    storage_account_name = "commonstgt2109"
+    resource_group_name = "Common-RG"
+    storage_account_name = "commonstg123"
     container_name = "tfcnt"
     key = "vishnut.fstate"
   }
